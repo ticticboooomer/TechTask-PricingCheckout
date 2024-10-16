@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechTask.Backend", "TechTask.Backend\TechTask.Backend.csproj", "{464A7230-C6E0-40E1-A246-D2C2E899B5D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechTask.Backend.Test", "TechTask.Backend.Test\TechTask.Backend.Test.csproj", "{D19CD135-85B3-4ADF-A23D-19066BC957C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{464A7230-C6E0-40E1-A246-D2C2E899B5D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{464A7230-C6E0-40E1-A246-D2C2E899B5D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{464A7230-C6E0-40E1-A246-D2C2E899B5D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D19CD135-85B3-4ADF-A23D-19066BC957C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D19CD135-85B3-4ADF-A23D-19066BC957C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D19CD135-85B3-4ADF-A23D-19066BC957C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D19CD135-85B3-4ADF-A23D-19066BC957C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
