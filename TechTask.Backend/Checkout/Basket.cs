@@ -1,4 +1,3 @@
-using TechTask.Backend.Model;
 using TechTask.Backend.Pricing;
 
 namespace TechTask.Backend.Checkout;
@@ -16,6 +15,10 @@ public class Basket : IBasket
     
     public void ScanItem(string item)
     {
+        if (!_snapshot.ItemExists(item))
+        {
+            throw new InvalidOperationException("item Not Found");
+        }
         _scannedItems[item] = _scannedItems.GetValueOrDefault(item, 0) + 1;
     }
 

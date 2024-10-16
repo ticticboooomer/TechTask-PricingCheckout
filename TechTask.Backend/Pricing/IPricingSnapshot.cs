@@ -4,5 +4,6 @@ namespace TechTask.Backend.Pricing;
 
 public interface IPricingSnapshot
 {
-    ItemPricing GetItemPricing(string item);
+    ItemPricing? GetItemPricing(string item);
+    bool ItemExists(string item);
 }
